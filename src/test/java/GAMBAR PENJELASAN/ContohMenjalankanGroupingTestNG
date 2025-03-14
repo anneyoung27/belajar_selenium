@@ -1,0 +1,17 @@
+<suite name="Test Suite">
+    <test name="Group Testing">
+        <groups>
+            <run>
+                <include name="login" />
+                <include name="logout" />
+            </run>
+        </groups>
+        <classes>
+            <class name="GroupingExample" />
+        </classes>
+    </test>
+</suite>
+
+
+<!-- Group login dan logout akan dijalankan   -->
+<!-- Group dashboard diabaikan  -->

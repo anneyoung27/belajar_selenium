@@ -1,0 +1,23 @@
+POM (Page Object Model) = pola desain yang digunakan dalam pengujian otomatis
+    POM mengorganisasi elemen dan logika interaksi halaman web ke dalam kelas-kelas
+    terpisah yang disebut Page Objects.
+
+    Prinsip utama POM:
+    - Pemodelan halaman; Setiap halaman atau bagian dari aplikasi direpresentasikan sebagai
+    kelas terpisah.
+    - Pemutusan Logika dan Data; logika interaksi dengan elemen web dipisahkan dari langkah-langkah
+    pengujian
+    - Reusable Components; metode dan elemen dalam kelas Page Object dapat digunakan kembali
+    di berbagai test case
+
+    Langkah-langkah pembuatan POM:
+    - Buat page class
+    - Definisikan web elemnts (dengan Page Factory -> dengan anotasi @FindBy) yang merepresentasikan page class nya
+    - Buat element methods
+    - Buat class pengujian (mis. page class => LoginPage, maka class pengujian yang dilakukan LoginTest)
+    = class pengujian (implementasi) biasa nya terdiri dari method TestNG (SetUp | method pengujian | tearDown)
+    - Buat step definitions
+
+    Ada 2 jenis cara melakukan POM:
+    - Tanpa menggunakan Page Factory
+    - Menggunakan Page Factory

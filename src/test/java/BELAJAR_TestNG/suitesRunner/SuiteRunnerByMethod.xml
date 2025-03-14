@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--    Menjalankan test berdasarkan method  />-->
+<suite name="Suite" verbose="1">
+    <test name="FirstTest">
+        <classes>
+            <class name="BELAJAR_SELENIUM.Annotations.DemoAnnotationCreateDriver">
+                <methods>
+                    <include name="testAnhTesterBlog"/>
+                </methods>
+            </class>
+            <class name="BELAJAR_SELENIUM.Annotations.DemoAnnotationBaseTest">
+                <methods>
+                    <exclude name="testAnhTesterBlog" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

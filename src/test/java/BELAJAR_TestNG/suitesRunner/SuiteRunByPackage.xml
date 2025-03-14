@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--    Menjalankan test sekaligus dalam satu package r />-->
+<suite name="Suite Demo" verbose="1">
+    <test name="Run Test by Package">
+        <packages>
+            <package name="BELAJAR_SELENIUM.Annotations"/>
+        </packages>
+    </test>
+</suite>

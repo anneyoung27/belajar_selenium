@@ -1,0 +1,44 @@
+Tipe-tipe frameworks:
+a. Built-in
+    e.g TestNG, JUnit, Cucumber, Robot, etc...
+b. Customized (User defined)
+    e.g Modular Framework, Data Driven, Keyword Driven, Hybrid Driven, etc.
+
+Langkah-langkah :
+1. Menganalisis AUT
+       - Jumlah pages
+       - Elemen apa saja / Bagaimana / Tipe nya
+       - Tipe automasi apa yang digunakan ? / Tipe automasi apa yang tidak bisa digunakan?
+2. Memilih test case yang bisa diotomatisasi (ada kemungkinan 100 test cass -> 90 automatable dan 10 cannot automate)
+       - Sanity Test Case - P1
+       - Data Driven Test Cases / re-tests - P2
+       - Regression Test Case - P3
+       - Any other cases - P4
+3. Design & Membuat Framework
+4. Mengeksekusi secara local atau remotely
+5. Maintenance
+
+
+-------------------------------------
+Beberapa operasi (operation) yang dapat di automasi:
+1. Frontend operations (Customers / Users)
+- Register an account
+- Login
+- Search for the product
+- Add/Edit/Delete products from cart
+- Order products
+- Reviews
+etc..
+ 
+2. Backend operations (Admin, Internal, dan Backend tools)
+- Products
+- Customers
+- Orders
+- Store
+- Manajemen produk (menambahkan, mengedit, menghapus produk dari katalog)
+- Manajemen pengguna (Aktivasi atau deaktivasi pengguna, pengelolaan peran atau hak akses)
+- Pengelolaan pesanan (Melihat dan memperbarui status pesanan, menambah nomor resi pengiriman)
+- Analisis dan Laporan (Mengunduh laporan)
+
+
+
